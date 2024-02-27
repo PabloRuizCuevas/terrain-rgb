@@ -1,4 +1,4 @@
-FROM osgeo/gdal:ubuntu-small-latest
+FROM ghcr.io/osgeo/gdal:ubuntu-small-latest
 # docker image containing all tools in order to transform a GeoTIFF into a PNG terrain tileset
 
 LABEL MAINTAINER thomas.halwax@syncpoint.io
